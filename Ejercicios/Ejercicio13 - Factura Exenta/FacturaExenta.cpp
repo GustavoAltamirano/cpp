@@ -25,13 +25,13 @@ int main(int argc, char const *argv[])
     //Proceso
     if (estaExenta == 's' || estaExenta == 'S')
     {
-   	 calculoDescuento = (subtotal * descuento) / 100;
+   	  calculoDescuento = (subtotal * descuento) / 100;
     	total = subtotal - calculoDescuento;
     }
     else
     {
   	  calculoDescuento = (subtotal * descuento) / 100;
-  	 calculoImpuesto = (subtotal - calculoDescuento) * impuesto;
+  	  calculoImpuesto = (subtotal - calculoDescuento) * impuesto;
     	total = subtotal - calculoDescuento + calculoImpuesto;
     }
 
