@@ -39,7 +39,5 @@ void menu()
         } else {
             productos(opcion);
         }
-
-        productos(opcion);
     }
 }
