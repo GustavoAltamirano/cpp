@@ -7,7 +7,7 @@ using namespace std;
 string libros[39][3];
 
 void cargarLibros() {
-    // Arreglo con categoria y descripcion
+    // Arreglo con categoria, descripcion y autor
 	libros[0][0] = "Algoritmos"; libros[0][1] = "Algoritmos y Programacion (Guia para docentes)"; libros[0][2] = "Manuel Rojas";
 	libros[1][0] = "Algoritmos"; libros[1][1] = "Apuntes de Algoritmos y Estructuras de Datos"; libros[1][2] = "Luis Perez";
 	libros[2][0] = "Algoritmos"; libros[2][1] = "Breves Notas sobre Analisis de Algoritmos"; libros[2][2] = "Roberto Vasquez";
